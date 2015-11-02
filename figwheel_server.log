@@ -1,0 +1,1265 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+Reading analysis cache for file:/usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.235 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.37 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.271 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.29 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.491 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.292 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.512 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.444 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.589 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.52 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.478 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.63 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.456 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.327 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.523 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.484 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.429 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.332 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.445 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.345 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.582 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/render at line 70 src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.683 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.607 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.643 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.549 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.449 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.449 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.439 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.508 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.437 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.76 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.302 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.363 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.018 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.665 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/Board at line 124 src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.548 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.579 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.553 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.551 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.548 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.389 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.38 seconds.[0m
+[31mCompiling "resources/public/js/main.js" failed.[0m
+java.io.FileNotFoundException: /usr/home/storm/clojure/om-tutorial/js/chessboard-0.3.0.js (No such file or directory)
+ at java.io.FileInputStream.open (FileInputStream.java:-2)
+    java.io.FileInputStream.<init> (FileInputStream.java:146)
+    clojure.java.io/fn (io.clj:229)
+    clojure.java.io$fn__9102$G__9095__9109.invoke (io.clj:69)
+    clojure.java.io/fn (io.clj:258)
+    clojure.java.io$fn__9102$G__9095__9109.invoke (io.clj:69)
+    clojure.java.io/fn (io.clj:165)
+    clojure.java.io$fn__9115$G__9091__9122.invoke (io.clj:69)
+    clojure.java.io$reader.doInvoke (io.clj:102)
+    clojure.lang.RestFn.invoke (RestFn.java:410)
+    cljs.closure$parse_js_ns.invoke (closure.clj:1844)
+    cljs.build.api$parse_js_ns.invoke (api.clj:92)
+    figwheel_sidecar.core$js_file__GT_namespaces.invoke (core.clj:304)
+    figwheel_sidecar.core$get_js_copies$fn__15282.invoke (core.clj:315)
+    clojure.core$keep$fn__6835.invoke (core.clj:7044)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    figwheel_sidecar.core$make_copies.invoke (core.clj:321)
+    figwheel_sidecar.core$copy_changed_js.invoke (core.clj:329)
+    figwheel_sidecar.core$check_for_changes.invoke (core.clj:347)
+    figwheel_sidecar.auto_builder$check_changes.invoke (auto_builder.clj:26)
+    clojure.core$partial$fn__4527.invoke (core.clj:2493)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:66)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.345 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.318 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.37 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.743 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.542 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.606 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.524 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.658 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.524 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.616 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.441 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.432 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.576 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.5 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.448 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.442 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.596 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.477 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.415 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.602 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.531 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.585 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.519 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.54 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.519 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.474 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.553 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.597 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.621 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.464 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.388 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.441 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.54 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.451 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.589 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.429 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.464 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+WARNING: Protocol Object implemented multiple times at line 70 src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.58 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.401 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.401 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.401 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.635 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.565 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.487 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.394 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.387 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.494 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 133, column 44
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 133, column 44
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 131, column 44
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.379 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 131, column 44
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.546 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/om_tutorial/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3157.invoke (compiler.cljc:1347)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1309)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1384)
+    cljs.closure$compile_dir.invoke (closure.clj:446)
+    cljs.closure$eval3601$fn__3602.invoke (closure.clj:486)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    cljs.closure$eval3614$fn__3615.invoke (closure.clj:500)
+    cljs.closure$eval3553$fn__3554$G__3544__3561.invoke (closure.clj:391)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1683)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15811.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15857.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15808.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15611.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15617.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15620.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15614.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15632.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719$fn__15724.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15718$state_machine__9556__auto____15719.invoke (auto.clj:178)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.592 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.376 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.379 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.382 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.395 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.384 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.375 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.413 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.448 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.532 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.421 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.372 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/mock_data.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/mock_data.cljs, line 261, column 74
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/mock_data.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.456 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /storm_blog/mock_data.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/mock_data.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  /storm_blog/mock_data.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+Compiling resources/public/js/storm_blog/mock_data.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.757 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/mock_data.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.426 seconds.[0m
+notifying browser that file changed:  /storm_blog/mock_data.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.462 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.67 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.507 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.446 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.523 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.405 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.397 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.673 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.526 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.577 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.426 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.593 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.513 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.543 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.46 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.604 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.526 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.576 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.366 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+notifying browser that file changed:  /storm_blog/mock_data.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.931 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.833 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 156, column 53
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: EOF while reading, starting at line 130 and column 1 on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 181, column 1
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: EOF while reading, starting at line 130 and column 1 on file /usr/home/storm/clojure/om-tutorial/src/om_tutorial/core.cljs, line 181, column 1
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.571 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.589 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.481 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.418 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.601 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.433 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.439 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.423 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.416 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.525 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.375 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/mock_data.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.261 seconds.[0m
+notifying browser that file changed:  /storm_blog/mock_data.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.41 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.581 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.5 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.888 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.412 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.387 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.456 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.566 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.581 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.534 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.526 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.426 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.425 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.532 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.435 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.48 seconds.[0m
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.432 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.618 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.489 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  /om_tutorial/core.js
